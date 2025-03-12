@@ -81,9 +81,9 @@ console.log(123123123n);
 //Object
 
 let user = {
-  name: "Alex",
-  age: 25,
-  "last-name%": "Ivanov",
+    name: "Alex",
+    age: 25,
+    "last-name%": "Ivanov",
 };
 
 const fruits = ["apple", "banana", 1, true];
@@ -101,4 +101,3 @@ console.log(typeof 123123123n); //bigint
 //Исключения
 console.log(typeof console.log); //function
 console.log(typeof null); //object
-
