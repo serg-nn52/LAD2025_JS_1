@@ -1,13 +1,13 @@
-// const user = {
-//     userName: 'Alexey',
-//     subject: 'HTML'
-// }
+const user = {
+    userName: 'Alexey',
+    subject: 'HTML'
+}
 
-// user.userName = 'Sergey';
-// user.subject = 'JS';
-// console.log(user);
+user.userName = 'Sergey';
+user.subject = 'JS';
+console.log(user);
 
-// const fruits = ['apple', 'banana', 'cherry'];
-// fruits[1] = 'pineapple';
+const fruits = ['apple', 'banana', 'cherry'];
+fruits[1] = 'pineapple';
 
-// console.log(fruits);
+console.log(fruits);
