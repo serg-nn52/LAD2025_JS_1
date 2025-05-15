@@ -7,7 +7,6 @@
 
 // const title = document.querySelector("h1");
 
-const elements = [...document.querySelectorAll("li")];
 // firstElement.style.color = "red";
 
 // document.body.innerHTML += "<h2>Новый заголовок!</h2>";
@@ -119,3 +118,22 @@ const user = {
 localStorage.setItem("user", JSON.stringify(user));
 
 console.log(JSON.parse(localStorage.getItem("user")));
+
+// Дополнение
+const elements = document.querySelectorAll("li");
+console.log(elements);
+elements[3].style.color = "yellow";
+elements[5].style.color = "green";
+
+elements.forEach((el) => {
+    el.addEventListener("click", (event) => {
+        console.log(event.target.textContent);
+    });
+});
+
+elements[5].innerHTML = "<h2>New HTML</h2>";
+
+elements[elements.length - 1].innerHTML = "<h3>New Last Element</h3>";
+
+const googleLink = document.querySelector("#google-link");
+googleLink.innerHTML = '<a href="https://www.google.com/">Google</a>';
